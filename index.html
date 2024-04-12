@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html data-theme="cupcake">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry </title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+lahk;dsf;adkfh;asdhkjfjkashd
+
+<body class="m-8">
+    <header>
+
+    </header>
+
+    <main>
+        <!-- main container  -->
+        <section class="flex justify-between flex-col lg:flex-row "> 
+            <!-- card container  -->
+            <div class="grid grid-cols-1 md: grid-cols-2 lg:grid-cols-3">
+
+                <!-- card 1 -->
+                <div class="card w-autobg-base-100 bg-[#FBBCED] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/triangle.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Triangle</h2>
+                        <p>Area (A) = 0.5 * b * h</p>
+
+                        <div class="flex  " >
+                            <input id="triangle-base" class="w-24 rounded-lg mx-2 text-center h-8" placeholder="b" type="number">
+                            <span> cm </span>
+                            <input id="triangle-height" class="w-24 rounded-lg mx-2 text-center h-8" placeholder="h" type="number">
+                            <span> cm </span>
+                        </div>
+
+                       <!-- temporary  display area  -->
+                        <p class="text-2xl uppercase">the area is <span id="triangle-result"></span> cm<sup>2</sup></p>
+
+                        <div class="card-actions w-full ">
+                            <button onclick="triangleArea()" class="btn w-full  btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 1 -->
+               
+            </div>
+            <!-- area calculator  -->
+            <div class=" border-gray-600 border-4 rounded-md text-center  sm:w-100% lg:w-96 ">
+                <h2>Calculator area </h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- java script file  -->
+    <script src="./triangle.js"></script>
+</body>
+
+</html>
